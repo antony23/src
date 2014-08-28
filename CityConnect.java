@@ -270,7 +270,7 @@ public class CityConnect {
 			return String.format(MESSAGE_INVALID_FORMAT, userCommand);
 		}
 
-		int slotPosition = location(newStartLocation, newEndLocation);
+		int slotPosition = location(newStartLocation, newEndLocation); // random messge
 
 		if (slotPosition == SLOT_UNAVAILABLE){
 			return MESSAGE_NO_SPACE;
